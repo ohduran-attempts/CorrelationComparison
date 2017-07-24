@@ -106,6 +106,7 @@ print (global_temperatures_filtered.head())
 
 
 
+
 With regards to the missing values in Alcohol data, we can try filling all values in between using ffill method within .fillna. That is, whatever value we have, it will be copied to the following NaN value, up until finding a valid entry:
 
 
