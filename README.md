@@ -87,7 +87,7 @@ The answer is 1850. That means, we should ignore the first 100 years of data on 
 global_temperatures_filtered = global_temperatures_grouped[185:-5] # erase the first 100 and the last 5 (1935 - 2010)
 global_temperatures_filtered['Year'] = pd.Series(global_temperatures_grouped['LandAverageTemperature'].index,
                                              index=global_temperatures_grouped.index)
-global_tempèratures_filtered = global_temperatures_filtered.sort_values('Year', ascending=True)
+global_temperatures_filtered = global_temperatures_filtered.sort_values('Year', ascending=True)
 
 print (global_temperatures_filtered.head())
 
@@ -102,15 +102,9 @@ print (global_temperatures_filtered.head())
     1939                8.760333  1939
 
 
-    /home/alvaro/anaconda3/lib/python3.6/site-packages/ipykernel_launcher.py:5: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: http://pandas.pydata.org/pandas-docs/stable/indexing.html#indexing-view-versus-copy
       """
 
 
-We can ignore this SettingWithCopyWarning safely in this case. 
 
 With regards to the missing values in Alcohol data, we can try filling all values in between using ffill method within .fillna. That is, whatever value we have, it will be copied to the following NaN value, up until finding a valid entry:
 
