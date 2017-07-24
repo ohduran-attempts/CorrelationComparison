@@ -210,3 +210,6 @@ print (np.corrcoef(ac_y,gt_y))
 
 
 The correlation matrix indicates that the correlation between this two variables is 9.46%, which means that these two have no meaningful statistical relationship with each other. In plain terms, it means that we should be careful when establishing a predictive model of one of this variables in terms of the other, since the relationship is quite weak, and the expected error when testing the results is likely to be high.
+
+### Notes
+This project was built on __Jupyter 4.3.0 Notebook__. Code is written in __Python 3.6.1__, making use of the __Anaconda 4.4.0__ programming environment.
