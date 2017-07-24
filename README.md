@@ -10,7 +10,7 @@ One of the most mediatic cases in economical academia was the paper authored by 
 
 Empirical proof of this fallacy can be found on Tyler Vigen's blog [3](http://www.tylervigen.com/spurious-correlations), where the authors surf the Internet searching for what is called "spurious correlations", that is, variables with a high degree of correlation that is deemed to be a byproduct of pure luck. Examples include the 95.24% correlation between people who drowned after falling out of a fishing boat in a given year, with the marriage rate in Kentucky that year.
 
-In this assessment, we are going to make a correlation comparison between alcohol consumption in the US with the Global Temperature data of the Earth. Both are historical, well-documented data, with an incrementing drift that is expected to lead to a bit of correlation that would be, if so, spurious.
+In this assessment, we are going to make a correlation comparison between Alcohol consumption in the US [4](https://pubs.niaaa.nih.gov/publications/Surveillance95/tab1_10.htm) with the Global Temperature data of the Earth [5](https://www.kaggle.com/berkeleyearth/climate-change-earth-surface-temperature-data). Both are historical, well-documented data, with an incrementing drift that is expected to lead to a bit of correlation that would be, if so, spurious.
 
 ## Data cleaning
 First, we need to import the data and have a glimpse of it in the form of a graph.
